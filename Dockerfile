@@ -1,5 +1,4 @@
-FROM node:16-alpine
-LABEL maintainer="support@mist.io"
+FROM node:20-alpine
 
 WORKDIR /ui
 COPY ./ ./
